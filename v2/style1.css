@@ -11,7 +11,7 @@ ul.rpw-loading {
 	background:url(load.gif) no-repeat right top;
 }
 ul.rpw {
-	list-style-type:none;
+	list-style-type:none !important;
 	margin:0;
 	padding:0;
 	/* you may set a fixed width & height to avoid flickering 
@@ -22,6 +22,7 @@ ul.rpw {
 ul.rpw li{
 	float:left;
 	margin:0 0 4px 4px;
+	list-style-type:none !important;
 }
 ul.rpw a{
 	text-decoration:none;
